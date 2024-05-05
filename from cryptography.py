@@ -7,7 +7,7 @@ def encrypt_message(message):
 def decrypt_message(encrypted_message):
     decrypted_message = cipher.decrypt(encrypted_message).decode()
     return decrypted_message
-message = "Ini adalah pesan rahasia"
+message = input ("input pesan :")
 encrypted_message = encrypt_message(message)
 print("Pesan terenkripsi:", encrypted_message)
 
